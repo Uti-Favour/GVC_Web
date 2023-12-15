@@ -1,5 +1,3 @@
-const plugin = require("tailwindcss");
-
 //NavBar Variables
 const mobileMenu = document.getElementById("mobile-menu");
 const socialMenuItem1 = document.getElementById("social-menu-item-0");
