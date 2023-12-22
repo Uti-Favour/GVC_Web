@@ -1,8 +1,22 @@
-//NavBar Variables
-const mobileMenu = document.getElementById("mobile-menu");
-const socialMenuItem1 = document.getElementById("social-menu-item-0");
-const socialMenuItem2 = document.getElementById("social-menu-item-1");
-const socialMenuItem3 = document.getElementById("social-menu-item-2");
-const userMenuButton = document.getElementById("user-menu-button");
+document.addEventListener("DOMContentLoaded", function () {
+  //Variables
+  let navBar = document.getElementById("navBar");
+  let mobileMenu = document.getElementById("mobile-menu");
+  let hiddenToggleMenu = document.querySelector(".menu_toggle_hidden");
+  let bell = document.getElementById("bell");
 
-//use this variables to create a navBar 
+  function openNav(){
+    navBar.addEventListener("click", function () {
+        hiddenToggleMenu.classList.toggle("menu_toggle_block");
+        console.log("You just cliked the button");
+      });
+    
+      bell.addEventListener("click", () => {
+        document.body.style.backgroundColor = "pink";
+      });
+}
+openNav();
+});
+
+
+

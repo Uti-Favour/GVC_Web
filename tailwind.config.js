@@ -5,5 +5,11 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+
+   // Add or update the content property
+   content: [
+    "./index.html",
+    "./main.js",
+  ],
 }
 
