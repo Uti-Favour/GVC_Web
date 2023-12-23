@@ -31,7 +31,8 @@
               <span class="absolute -inset-0.5"></span>
               <span class="sr-only">Open main menu</span>
               <!-- Font Awesome icon for menu -->
-              <i class="fas fa-bars"></i>
+              <i class="fas fa-bars" id="barOpen"></i>
+              <i class="fas fa-cancle hidden" id="barClosed"></i>
             </button>
           </div>
           <div
@@ -74,11 +75,12 @@
             <button
               type="button"
               class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+              id="bell"
             >
               <span class="absolute -inset-1.5"></span>
               <span class="sr-only">View notifications</span>
               <!-- Font Awesome icon for notifications -->
-              <i class="fas fa-bell h-6 w-6" id="bell"></i>
+              <i class="fas fa-bell h-6 w-6"></i>
             </button>
           </div>
         </div>
@@ -117,7 +119,7 @@
     <!-- ==== Ends Here ==== -->
 
     <!-- === Video Hero Section === -->
-    <div class="relative h-screen">
+    <div class="relative h-screen container grid grid-cols-1">
       <video
         src="videos/vid_2.mp4"
         type="video/mp4"
@@ -128,6 +130,14 @@
 
       <!-- Dark Overlay -->
       <div class="absolute inset-0 bg-black opacity-60"></div>
+      <div class="text-container">
+        <h1>
+          Join Our waitlist for our upcoming software and mobile appliction and
+          stay updated oon new events
+        </h1>
+        <input class="border border-solid" type="email" placeholder="Enter your Email Address">
+        <button type="submit">Join Waitlist</button>
+      </div>
     </div>
 
     <!-- ---------------- Mission and Vision ------------------- -->
@@ -377,7 +387,7 @@
 
     <!-- ----------- FAQ Page -------------- -->
     <div class="container bg-white border">
-      <div class="grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div class="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 align-middle justify-between mx-auto p-4">
         <div>
           <h1 class="text-3xl">How long will GVC hold</h1>
           <p class="text-base">
@@ -385,12 +395,12 @@
           </p>
         </div>
 
-        <div>
-          <h1 class="text-3xl">Do i need money to vote?</h1>
+        <div class="mb-4">
+          <h1 class="text-xl font-bold">Do i need money to vote?</h1>
           <p class="text-base">Absolutely not! You don't need money to vote</p>
         </div>
 
-        <div>
+        <div class="mb-4">
           <h1 class="text-3xl">How can i regiser for GVC ?</h1>
           <p class="text-base">
             You can register by clciking on the link below. You'll receive a
