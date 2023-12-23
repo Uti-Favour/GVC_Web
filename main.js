@@ -12,14 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
       hiddenToggleMenu.classList.toggle("menu_toggle_block");
       console.log("You just cliked the button");
       barClosed.style.display = 'none';
-
-      if ((navBar.onclick = "openNav()")) {
-        barOpen.style.display = "none";
-        barClosed.style.display = "block";
-      } else {
-        barOpen.style.display = "block";
-        barClosed.style.display = "none";
-      }
     });
   }
   openNav();
