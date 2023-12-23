@@ -47,5 +47,4 @@ dist/
 # Optional: ESLint
 .eslintcache
 
-# Optional: Tailwind CSS build
-*.css
+
