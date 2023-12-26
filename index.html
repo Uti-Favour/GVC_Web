@@ -104,7 +104,8 @@
             <a
               href="waitlist.html"
               class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-              >Join Waitlist</a>
+              >Join Waitlist</a
+            >
             <a
               href="contact.html"
               class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
@@ -116,140 +117,169 @@
     </nav>
     <!-- ==== Ends Here ==== -->
 
-  <!-- === Video Hero Section === -->
-<div class="relative h-screen overflow-hidden">
-  <video
-    src="videos/vid_2.mp4"
-    type="video/mp4"
-    autoplay
-    loop
-    class="w-full h-full object-cover"
-  ></video>
+    <!-- === Video Hero Section === -->
+    <div class="relative h-screen overflow-hidden">
+      <video
+        src="videos/vid_2.mp4"
+        type="video/mp4"
+        autoplay
+        loop
+        class="w-full h-full object-cover"
+      ></video>
 
-  <!-- Dark Overlay -->
-  <div class="absolute inset-0 bg-black opacity-75"></div>
+      <!-- Dark Overlay -->
+      <div class="absolute inset-0 bg-black opacity-75"></div>
 
-  <!-- Content Overlay -->
-  <div class="absolute inset-0 items-center justify-center text-white flex grid-cols-1">
-    <div class="text-center space-x-4">
-      <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Raising Gospel Ministers for God's Kingdom <i class="fas fa-rocket"></i>
-      </h1>
-      <p class="mt-6 text-lg leading-8 text-gray-200 ">Get ready for the ultimate online singing experience! GVC is coming soon to showcase the world's most talented voices. </p>
+      <!-- Content Overlay -->
+      <div
+        class="absolute inset-0 items-center justify-center text-white flex grid-cols-1"
+      >
+        <div class="text-center space-x-4">
+          <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+            Raising Gospel Ministers for God's Kingdom
+            <i class="fas fa-rocket"></i>
+          </h1>
+          <p class="mt-6 text-lg leading-8 text-gray-200">
+            Get ready for the ultimate online singing experience! GVC is coming
+            soon to showcase the world's most talented voices.
+          </p>
 
-<!-- <form id="waitlist-form">
+          <!-- <form id="waitlist-form">
   <input type="email" id="email-list" placeholder="Enter your email">
   <button>Submit</button>
 </form> -->
-      <div class="mt-10 flex items-center justify-center gap-x-6">
-        <a href="waitlist.html" class="rounded-md bg-amber-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" id="join-waitlist" onclick=" createDynamicForm()">Join Waitlist</a>
-        <a href="#learnMore" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a
+              href="waitlist.html"
+              class="rounded-md bg-amber-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              id="join-waitlist"
+              onclick=" createDynamicForm()"
+              >Join Waitlist</a
+            >
+            <a
+              href="#learnMore"
+              class="text-sm font-semibold leading-6 text-white"
+              >Learn more <span aria-hidden="true">→</span></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- -------- Form Page -------- -->
+      <div class="z-30 py-20 px-16 bg-gray-900 fixed border border-white">
+        <form id="form-section">
+          <input type="text" />
+        </form>
       </div>
     </div>
-  </div>
-
-  <!-- -------- Form Page -------- -->
-  <div class="z-30 py-20 px-16 bg-gray-900 fixed border border-white">
-    <form id="form-section">
-      <input type="text">
-    </form>
-  </div>
-  
-
-</div>
-
 
     <!-- ---------------- Mission and Vision ------------------- -->
-<section class="container mx-auto py-24 bg-gray-900" id="learnMore">
-  <h1 class="text-4xl font-bold tracking-tight text-white mb-10 sm:text-4xl text-center fade-in">
-    Mission and Vision
-  </h1>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
-    <!-- Celebrate Harmony Feature -->
-    <div class="shadow-md hover:shadow-lg duration-300 p-6 rounded-xl bg-gray-800 text-white fade-in">
-      <div class="border rounded-full inline-block p-4 border-white mb-3">
-        <i class="fas fa-music"></i>
+    <section class="container mx-auto py-24 bg-gray-900" id="learnMore">
+      <h1
+        class="text-4xl font-bold tracking-tight text-white mb-10 sm:text-4xl text-center fade-in"
+      >
+        Mission and Vision
+      </h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+        <!-- Celebrate Harmony Feature -->
+        <div
+          class="shadow-md hover:shadow-lg duration-300 p-6 rounded-xl bg-gray-800 text-white fade-in"
+        >
+          <div class="border rounded-full inline-block p-4 border-white mb-3">
+            <i class="fas fa-music"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">Celebrate Harmony</h3>
+          <p class="text-base text-gray-300">
+            Immerse yourself in the soulful rhythm of gospel music. Experience
+            the power of harmony and unity through the universal language of
+            melody, fulfilling our mission to populate God's kingdom through
+            music.
+          </p>
+        </div>
+
+        <!-- Raise Your Voice Feature -->
+        <div
+          class="shadow-md hover:shadow-lg duration-300 p-6 rounded-xl bg-gray-800 text-white fade-in"
+        >
+          <div class="border rounded-full inline-block p-4 border-white mb-3">
+            <i class="fas fa-microphone"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">Raise Your Voice</h3>
+          <p class="text-base text-gray-300">
+            Stand center stage and let your voice resonate. Our platform
+            provides a stage for aspiring artists to amplify their message
+            through the microphone of gospel music, realizing our vision for a
+            musical journey of excellence and spiritual impact.
+          </p>
+        </div>
+
+        <!-- Connect Globally Feature -->
+        <div
+          class="shadow-md hover:shadow-lg duration-300 p-6 rounded-xl bg-gray-800 text-white fade-in"
+        >
+          <div class="border rounded-full inline-block p-4 border-white mb-3">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">Connect Globally</h3>
+          <p class="text-base text-gray-300">
+            Our vision extends beyond borders. Join a global community that
+            shares the passion for gospel music, fostering connections that
+            transcend geographical boundaries and contribute to our mission of
+            blessing lives worldwide.
+          </p>
+        </div>
+
+        <!-- Achieve Excellence Feature -->
+        <div
+          class="shadow-md hover:shadow-lg duration-300 p-6 rounded-xl bg-gray-800 text-white fade-in"
+        >
+          <div class="border rounded-full inline-block p-4 border-white mb-3">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">Achieve Excellence</h3>
+          <p class="text-base text-gray-300">
+            Strive for excellence and be recognized. Our platform honors
+            outstanding contributions to gospel music, turning aspirations into
+            well-deserved achievements as part of our mission to promote musical
+            excellence and spiritual upliftment.
+          </p>
+        </div>
+
+        <!-- Spiritual Upliftment Feature -->
+        <div
+          class="shadow-md hover:shadow-lg duration-300 p-6 rounded-xl bg-gray-800 text-white fade-in"
+        >
+          <div class="border rounded-full inline-block p-4 border-white mb-3">
+            <i class="fas fa-dove"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">Spiritual Upliftment</h3>
+          <p class="text-base text-gray-300">
+            Experience the spiritual journey through gospel melodies. Our
+            platform fosters an environment where the gentle wings of
+            inspiration and hope take flight, aligning with our vision of
+            impacting lives spiritually.
+          </p>
+        </div>
+
+        <!-- Passion for Music Feature -->
+        <div
+          class="shadow-md hover:shadow-lg duration-300 p-6 rounded-xl bg-gray-800 text-white fade-in"
+        >
+          <div class="border rounded-full inline-block p-4 border-white mb-3">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">Passion for Music</h3>
+          <p class="text-base text-gray-300">
+            Fuel your passion for gospel music. Our platform is driven by the
+            heart, connecting individuals with a shared love for uplifting and
+            inspirational melodies, reflecting our mission to bless lives
+            through the powerful medium of music.
+          </p>
+        </div>
+
+        <!-- End of feature item block -->
       </div>
-      <h3 class="text-2xl font-bold mb-3">Celebrate Harmony</h3>
-      <p class="text-base text-gray-300">
-        Immerse yourself in the soulful rhythm of gospel music. Experience the
-        power of harmony and unity through the universal language of melody,
-        fulfilling our mission to populate God's kingdom through music.
-      </p>
-    </div>
-
-    <!-- Raise Your Voice Feature -->
-    <div class="shadow-md hover:shadow-lg duration-300 p-6 rounded-xl bg-gray-800 text-white fade-in">
-      <div class="border rounded-full inline-block p-4 border-white mb-3">
-        <i class="fas fa-microphone"></i>
-      </div>
-      <h3 class="text-2xl font-bold mb-3">Raise Your Voice</h3>
-      <p class="text-base text-gray-300">
-        Stand center stage and let your voice resonate. Our platform provides
-        a stage for aspiring artists to amplify their message through the
-        microphone of gospel music, realizing our vision for a musical journey
-        of excellence and spiritual impact.
-      </p>
-    </div>
-
-    <!-- Connect Globally Feature -->
-    <div class="shadow-md hover:shadow-lg duration-300 p-6 rounded-xl bg-gray-800 text-white fade-in">
-      <div class="border rounded-full inline-block p-4 border-white mb-3">
-        <i class="fas fa-globe"></i>
-      </div>
-      <h3 class="text-2xl font-bold mb-3">Connect Globally</h3>
-      <p class="text-base text-gray-300">
-        Our vision extends beyond borders. Join a global community that shares
-        the passion for gospel music, fostering connections that transcend
-        geographical boundaries and contribute to our mission of blessing lives
-        worldwide.
-      </p>
-    </div>
-
-    <!-- Achieve Excellence Feature -->
-    <div class="shadow-md hover:shadow-lg duration-300 p-6 rounded-xl bg-gray-800 text-white fade-in">
-      <div class="border rounded-full inline-block p-4 border-white mb-3">
-        <i class="fas fa-trophy"></i>
-      </div>
-      <h3 class="text-2xl font-bold mb-3">Achieve Excellence</h3>
-      <p class="text-base text-gray-300">
-        Strive for excellence and be recognized. Our platform honors outstanding
-        contributions to gospel music, turning aspirations into well-deserved
-        achievements as part of our mission to promote musical excellence and
-        spiritual upliftment.
-      </p>
-    </div>
-
-    <!-- Spiritual Upliftment Feature -->
-    <div class="shadow-md hover:shadow-lg duration-300 p-6 rounded-xl bg-gray-800 text-white fade-in">
-      <div class="border rounded-full inline-block p-4 border-white mb-3">
-        <i class="fas fa-dove"></i>
-      </div>
-      <h3 class="text-2xl font-bold mb-3">Spiritual Upliftment</h3>
-      <p class="text-base text-gray-300">
-        Experience the spiritual journey through gospel melodies. Our platform
-        fosters an environment where the gentle wings of inspiration and hope
-        take flight, aligning with our vision of impacting lives spiritually.
-      </p>
-    </div>
-
-    <!-- Passion for Music Feature -->
-    <div class="shadow-md hover:shadow-lg duration-300 p-6 rounded-xl bg-gray-800 text-white fade-in">
-      <div class="border rounded-full inline-block p-4 border-white mb-3">
-        <i class="fas fa-heart"></i>
-      </div>
-      <h3 class="text-2xl font-bold mb-3">Passion for Music</h3>
-      <p class="text-base text-gray-300">
-        Fuel your passion for gospel music. Our platform is driven by the
-        heart, connecting individuals with a shared love for uplifting and
-        inspirational melodies, reflecting our mission to bless lives through
-        the powerful medium of music.
-      </p>
-    </div>
-
-    <!-- End of feature item block -->
-  </div>
-</section>
-
+    </section>
 
     <!-- ------ Content Section ------- -->
     <div class="overflow-hidden bg-white py-24 sm:py-32" id="content-section">
@@ -313,17 +343,15 @@
             </div>
           </div>
           <img
-          src="images/GVC logo.jpg"
-          alt="GVC Logo"
-          class="w-full h-auto max-w-[48rem] rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:max-w-[57rem] md:-ml-4 lg:-ml-0"
-          width="100%"
-          height="auto"
-      />
-      
+            src="images/GVC logo.jpg"
+            alt="GVC Logo"
+            class="w-full h-auto max-w-[48rem] rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:max-w-[57rem] md:-ml-4 lg:-ml-0"
+            width="100%"
+            height="auto"
+          />
         </div>
       </div>
     </div>
-    
 
     <!-- ------------ Stats ------------ -->
     <div class="bg-gray-900 py-24 sm:py-32">
@@ -354,7 +382,7 @@
             <dd
               class="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl fade-in"
             >
-            2,000+
+              2,000+
             </dd>
           </div>
         </dl>
@@ -362,28 +390,37 @@
     </div>
 
     <!-- -------------- Image Gallary ------------- -->
-    <div class="bg-gray-900 text-white ">
+    <div class="bg-gray-900 text-white">
       <div
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-auto p-4"
       >
-
-
         <!-- ---- Image 2 ---- -->
-        <div class="border border-gray-500 p-4 rounded-xl ">
-          <img src="images/GVC_2.jpg" class="rounded-xl  fade-in mb-5" />
+        <div class="border border-gray-500 p-4 rounded-xl">
+          <img src="images/GVC_2.jpg" class="rounded-xl fade-in mb-5" />
 
           <!-- <p class="mb-2 text-gray-300"><i class="fas fa-user text-sm"></i> <span class="font-medium text-white text-lg">Name:</span>Uti Favour Fumnaya</p>
           <p  class="mb-2 text-gray-300"><i class="fas fa-globe text-sm"></i> <span class= "font-medium text-gray-300 text-lg"> Location: </span>Abia State , Nigeria</p>
           <p  class="mb-2 text-gray-300"><i class="fas fa-trophy text-sm"></i> <span class= "font-medium text-gray-300 text-lg"> Prize won:</span> 100,000NGN</p>
           <p  class=" text-gray-300"><i class="fas fa-heart text-sm"></i> <span class= "font-medium text-gray-300 text-lg">Votes:</span>13,500 Votes Casted</p> -->
 
-          <div class="mt-10 flex items-left justify-left gap-x-6">
-            <a href="" class="rounded-md bg-amber-400 px-10 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" id="join-waitlist" onclick=" createDynamicForm()">Register Now</a>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a
+              href=""
+              class="rounded-md bg-amber-400 px-10 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              id="join-waitlist"
+              onclick="createDynamicForm()"
+              >Register Now</a
+            >
+            <a
+              href="#content-section"
+              class="text-sm font-semibold leading-6 text-white"
+              >Learn more <span aria-hidden="true">→</span></a
+            >
           </div>
         </div>
 
         <!-- ---- Image 3 ---- -->
-        <div class="border border-gray-500 p-4 rounded-xl ">
+        <div class="border border-gray-500 p-4 rounded-xl">
           <img src="images/GVC_3.jpg" class="rounded-xl fade-in mb-5" />
 
           <!-- <p class="mb-2 text-gray-300"><i class="fas fa-user text-sm"></i> <span class="font-medium text-white text-lg">Name:</span>Uti Favour Fumnaya</p>
@@ -391,37 +428,69 @@
           <p  class="mb-2 text-gray-300"><i class="fas fa-trophy text-sm"></i> <span class= "font-medium text-gray-300 text-lg"> Prize won:</span> 100,000NGN</p>
           <p  class=" text-gray-300"><i class="fas fa-heart text-sm"></i> <span class= "font-medium text-gray-300 text-lg">Votes:</span>13,500 Votes Casted</p> -->
 
-          <div class="mt-10 flex  items-left justify-left gap-x-6">
-            <a href="" class="rounded-md bg-amber-400 px-10 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" id="join-waitlist" onclick=" createDynamicForm()">Register Now</a>
-            <a href="#content-section" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a
+              href=""
+              class="rounded-md bg-amber-400 px-10 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              id="join-waitlist"
+              onclick="createDynamicForm()"
+              >Register Now</a
+            >
+            <a
+              href="#content-section"
+              class="text-sm font-semibold leading-6 text-white"
+              >Learn more <span aria-hidden="true">→</span></a
+            >
           </div>
         </div>
 
         <!-- ---- Image 4 ---- -->
-        <div class="border border-gray-500 p-4 rounded-xl ">
-          <img src="images/GVC_4.jpg" class="rounded-xl  fade-in mb-5" />
+        <div class="border border-gray-500 p-4 rounded-xl">
+          <img src="images/GVC_4.jpg" class="rounded-xl fade-in mb-5" />
 
           <!-- <p class="mb-2 text-gray-300"><i class="fas fa-user text-sm"></i> <span class="font-medium text-white text-lg">Name:</span>Uti Favour Fumnaya</p>
           <p  class="mb-2 text-gray-300"><i class="fas fa-globe text-sm"></i> <span class= "font-medium text-gray-300 text-lg"> Location: </span>Abia State , Nigeria</p>
           <p  class="mb-2 text-gray-300"><i class="fas fa-trophy text-sm"></i> <span class= "font-medium text-gray-300 text-lg"> Prize won:</span> 100,000NGN</p>
           <p  class=" text-gray-300"><i class="fas fa-heart text-sm"></i> <span class= "font-medium text-gray-300 text-lg">Votes:</span>13,500 Votes Casted</p> -->
 
-          <div class="mt-10 flex items-left justify-left gap-x-6">
-            <a href="" class="rounded-md bg-amber-400 px-10 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" id="join-waitlist" onclick=" createDynamicForm()">Register Now</a>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a
+              href=""
+              class="rounded-md bg-amber-400 px-10 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              id="join-waitlist"
+              onclick="createDynamicForm()"
+              >Register Now</a
+            >
+            <a
+              href="#content-section"
+              class="text-sm font-semibold leading-6 text-white"
+              >Learn more <span aria-hidden="true">→</span></a
+            >
           </div>
         </div>
 
         <!-- ---- Image 5 ---- -->
-        <div class="border border-gray-500 p-4 rounded-xl ">
-          <img src="images/GVC_5.jpg" class="rounded-xl  fade-in mb-5" />
+        <div class="border border-gray-500 p-4 rounded-xl">
+          <img src="images/GVC_5.jpg" class="rounded-xl fade-in mb-5" />
 
           <!-- <p class="mb-2 text-gray-300"><i class="fas fa-user text-sm"></i> <span class="font-medium text-white text-lg">Name:</span>Uti Favour Fumnaya</p>
           <p  class="mb-2 text-gray-300"><i class="fas fa-globe text-sm"></i> <span class= "font-medium text-gray-300 text-lg"> Location: </span>Abia State , Nigeria</p>
           <p  class="mb-2 text-gray-300"><i class="fas fa-trophy text-sm"></i> <span class= "font-medium text-gray-300 text-lg"> Prize won:</span> 100,000NGN</p>
           <p  class=" text-gray-300"><i class="fas fa-heart text-sm"></i> <span class= "font-medium text-gray-300 text-lg">Votes:</span>13,500 Votes Casted</p> -->
 
-          <div class="mt-10 flex items-left justify-left gap-x-6">
-            <a href="" class="rounded-md bg-amber-400 px-10 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" id="join-waitlist" onclick=" createDynamicForm()">Register Now</a>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a
+              href=""
+              class="rounded-md bg-amber-400 px-10 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              id="join-waitlist"
+              onclick="createDynamicForm()"
+              >Register Now</a
+            >
+            <a
+              href="#content-section"
+              class="text-sm font-semibold leading-6 text-white"
+              >Learn more <span aria-hidden="true">→</span></a
+            >
           </div>
         </div>
       </div>
@@ -429,7 +498,9 @@
 
     <!-- ----------- FAQ Page -------------- -->
     <div class="container bg-white border">
-      <div class="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 align-middle justify-between mx-auto p-4">
+      <div
+        class="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 align-middle justify-between mx-auto p-4"
+      >
         <div>
           <h1 class="text-3xl">How long will GVC hold</h1>
           <p class="text-base">
