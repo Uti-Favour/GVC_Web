@@ -524,6 +524,20 @@ video {
   transform: translateY(0);
 }
 
+.small-screens{
+  display: none;
+}
+
+@media( max-width : 720px){
+  .small-screens{
+    display: block;
+  }
+
+  .large-screens{
+    display: none;
+  }
+}
+
 /* form{
   width: 90%;
   max-width: 600px;
